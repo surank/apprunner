@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Axios from "axios";
 
 function PostForm(){
-    const url ="http://localhost:3030/api/v1/users"
+    const url ="https://9cx7ejzbpi.ap-southeast-1.awsapprunner.com/api/v1/users"
     const [data, setData] = useState({
         firstname: "",
         lastname: "",
